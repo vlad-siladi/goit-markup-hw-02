@@ -1,0 +1,133 @@
+/* белый #FFFFFF */
+/*цвет фона вторичний #2F303A */
+:root {
+  --primary-text-colour: #757575;
+  --title-text-colour: #212121;
+  --accent-text-colour: #2196f3;
+  --primary-white-colour: #fff;
+  --background-secondary-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-colour);
+  color: var(--primary-text-colour);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site header */
+
+.logo {
+  color: var(--accent-text-colour);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.link {
+  color: var(--title-text-colour);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-colour);
+}
+
+.link.current {
+  color: var(--accent-text-colour);
+}
+
+.auth-link {
+  color: var(--primary-text-colour);
+}
+
+.auth-link:hover,
+.auth-link:focus {
+  color: var(--accent-text-colour);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--background-secondary-color);
+}
+
+.title {
+  color: var(--primary-white-colour);
+}
+
+.button {
+  background-color: var(--accent-text-colour);
+  color: var(--primary-white-colour);
+}
+
+/* features */
+
+.section-title {
+  color: var(--title-text-colour);
+}
+
+/* Activities */
+
+.heading {
+  color: var(--title-text-colour);
+}
+
+/* Team */
+
+.caption {
+  color: var(--title-text-colour);
+}
+
+.caption-title {
+  color: var(--title-text-colour);
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-secondary-color);
+}
+
+.footer-logo {
+  color: var(--accent-text-colour);
+}
+
+.footer-studio {
+  color: var(--primary-white-colour);
+}
+
+.address-link {
+  color: var(--primary-white-colour);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-text-colour);
+}
+
+/* portfolio */
+
+/* portfolio button */
+
+.btn-link {
+  background-color: #f5f4fa;
+  color: var(--title-text-colour);
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  background-color: var(--accent-text-colour);
+}
+
+/* portfolio img  */
+
+.portfolio-title {
+  color: var(--title-text-colour);
+}

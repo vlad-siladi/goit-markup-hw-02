@@ -23,6 +23,7 @@ body {
 .logo {
   color: var(--accent-text-colour);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -94,13 +95,13 @@ body {
 
 .section-title {
   color: var(--title-text-colour);
-  font-family: Roboto;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
 .section-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -133,14 +134,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .caption-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -152,6 +152,10 @@ body {
 .footer-logo {
   color: var(--accent-text-colour);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -161,6 +165,8 @@ body {
 
 .address-link {
   color: var(--primary-white-colour);
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -168,6 +174,8 @@ body {
 
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

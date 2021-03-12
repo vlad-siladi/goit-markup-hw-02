@@ -6,6 +6,7 @@
   --accent-text-colour: #2196f3;
   --primary-white-colour: #fff;
   --background-secondary-color: #2f303a;
+  --background-grey-color: #f5f4fa;
 }
 
 body {
@@ -20,7 +21,8 @@ body {
 
 /* Site header */
 
-.logo {
+.logo,
+.footer-logo {
   color: var(--accent-text-colour);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -79,6 +81,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -98,6 +101,7 @@ body {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-text {
@@ -119,6 +123,10 @@ body {
 }
 
 /* Team */
+
+.team {
+  background: var(--background-grey-color);
+}
 
 .caption {
   color: var(--title-text-colour);
@@ -147,16 +155,6 @@ body {
 /* footer */
 .footer {
   background-color: var(--background-secondary-color);
-}
-
-.footer-logo {
-  color: var(--accent-text-colour);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .footer-studio {
@@ -192,7 +190,7 @@ body {
 /* portfolio button */
 
 .btn-link {
-  background-color: #f5f4fa;
+  background: var(--background-grey-color);
   color: var(--title-text-colour);
   font-weight: 500;
   font-size: 16px;
